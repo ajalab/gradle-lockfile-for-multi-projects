@@ -1,0 +1,1 @@
+# gradle-lockfile-for-multi-projects
