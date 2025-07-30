@@ -4,6 +4,11 @@
 
 [versions]
 kotlin = "2.1.0"
+springBoot = "3.3.13"
 
 [libraries]
 kotlinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+springBootStarter = { module = "org.springframework.boot:spring-boot-starter", version.ref = "springBoot" }
+
+[plugins]
+springBootGradlePlugin = { id = "org.springframework.boot", version.ref = "springBoot" }
